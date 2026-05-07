@@ -1,0 +1,14 @@
+{
+  "name": "medismart-ai-credits",
+  "version": "1.0.0",
+  "description": "Cloud AI credits + HuggingFace proxy for MediSmart Pro (Vercel)",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@upstash/redis": "^1.34.3"
+  }
+}
